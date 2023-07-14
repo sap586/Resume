@@ -1,4 +1,4 @@
 # resume
 
-Use TexShop on macOS to compile sagarp4060.tex
+Use TexShop on macOS to compile sap586.tex
 Typeset using XeLaTeX

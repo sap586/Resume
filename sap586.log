@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.7)  13 JAN 2024 04:28
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.7)  17 FEB 2024 17:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1190,53 +1190,48 @@ LaTeX Font Info:    Trying to load font information for TS1+stix on input line
 (/usr/local/texlive/2022/texmf-dist/tex/latex/stix/ts1stix.fd
 File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 8
-0.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 9
+5.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 91--95
+Underfull \hbox (badness 10000) in paragraph at lines 108--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--103
+Underfull \hbox (badness 10000) in paragraph at lines 115--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--111
+Underfull \hbox (badness 10000) in paragraph at lines 121--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--119
+Underfull \hbox (badness 10000) in paragraph at lines 128--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--125
+Underfull \hbox (badness 10000) in paragraph at lines 136--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--132
+Underfull \hbox (badness 10000) in paragraph at lines 142--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--138
+Underfull \hbox (badness 10000) in paragraph at lines 149--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 155--158
 
  []
 
@@ -1251,19 +1246,19 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `sap586.out' has not changed.
-(rerunfilecheck)             Checksum: C6B5445F41580EC10D4184D6F2D8B726;414.
+(rerunfilecheck)             Checksum: 59AC53B4F1BCE9D387191CAD700F6824;541.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 151 ({)
+### simple group (level 1) entered at line 166 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
  32671 strings out of 476179
  649715 string characters out of 5809545
- 1054526 words of memory out of 5000000
+ 1056675 words of memory out of 5000000
  52852 multiletter control sequences out of 15000+600000
  522077 words of font info for 122 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 99i,9n,94p,1195b,328s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,9n,94p,1195b,318s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on sap586.pdf (1 page).

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.3.15)  15 MAR 2024 21:28
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.3.15)  16 MAR 2024 13:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -523,7 +523,27 @@ the 'stix' package, so I'm not going to load amssymb.
 
 )
 TextBlockOrigin set to 2mm x 0.65\paperheight 
+(C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+stix on input line 1
+12.
 
+(C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/stix\t1stix.fd
+File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
+))
+(C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/contour\contour.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Package: contour 2004/11/18 v2.14 Print contoured text (HH, MH)
+\con@length=\skip56
+
+Loading configuration file `contour.cfg'.
+(C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/contour\contour.cfg
+File: contour.cfg 2004/11/18 v2.14 Print contoured text (HH, MH)
+)
+contour: Using driver file `dvips.cnt'.
+(C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/contour\dvips.cnt
+File: dvips.cnt 2004/11/18 v2.14 Print contoured text (HH, MH)
+))
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/worldflags\worldflags.s
 ty (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
@@ -985,65 +1005,59 @@ ions\pgflibrarydecorations.text.code.tex
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-LaTeX Font Info:    Trying to load font information for T1+stix on input line 4
-7.
-
-(C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/stix\t1stix.fd
-File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
-)
 (sap586.aux)
 \openout1 = `sap586.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
-7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
+2.
 
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 47.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 47
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 52.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 52
 .
 
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 52.
 LaTeX Font Info:    Trying to load font information for LS1+stix on input line 
-47.
+52.
 
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 52.
 LaTeX Font Info:    Trying to load font information for LS2+stix on input line 
-47.
+52.
 
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stix.fd
 File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    ... okay on input line 52.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1085,127 +1099,124 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup14
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 47.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 47.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 47.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 47.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 47.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 47.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 47.
-LaTeX Font Info:    Redeclaring math accent \check on input line 47.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 47.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 47.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 47.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 47.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 47.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 47.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 47.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 47.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 47.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 47.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 47.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 47.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 47.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 47.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 47.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 47.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 47.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 52.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 52.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 52.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 52.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 52.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 52.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 52.
+LaTeX Font Info:    Redeclaring math accent \check on input line 52.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 52.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 52.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 52.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 52.
 LaTeX Font Info:    Encoding `LS1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 47.
+(Font)              `operators' in the math version `normal' on input line 52.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  LS1/stix/m/n --> TU/stix/m/n on input line 47.
+(Font)                  LS1/stix/m/n --> TU/stix/m/n on input line 52.
 LaTeX Font Info:    Encoding `LS1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 47.
+(Font)              `operators' in the math version `bold' on input line 52.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  LS1/stix/b/n --> TU/stix/m/n on input line 47.
+(Font)                  LS1/stix/b/n --> TU/stix/m/n on input line 52.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/stix/m/n --> TU/stix/m/n on input line 47.
+(Font)                  TU/stix/m/n --> TU/stix/m/n on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  LS1/stix/m/it --> TU/stix/m/it on input line 47.
+(Font)                  LS1/stix/m/it --> TU/stix/m/it on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  LS1/stix/b/n --> TU/stix/b/n on input line 47.
+(Font)                  LS1/stix/b/n --> TU/stix/b/n on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  LS1/stixsf/m/n --> TU/lmss/m/n on input line 47.
+(Font)                  LS1/stixsf/m/n --> TU/lmss/m/n on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  LS2/stixtt/m/n --> TU/lmtt/m/n on input line 47.
+(Font)                  LS2/stixtt/m/n --> TU/lmtt/m/n on input line 52.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/stix/m/n --> TU/stix/b/n on input line 47.
+(Font)                  TU/stix/m/n --> TU/stix/b/n on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  LS1/stix/b/it --> TU/stix/b/it on input line 47.
+(Font)                  LS1/stix/b/it --> TU/stix/b/it on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  LS1/stixsf/b/n --> TU/lmss/b/n on input line 47.
+(Font)                  LS1/stixsf/b/n --> TU/lmss/b/n on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  LS2/stixtt/b/n --> TU/lmtt/b/n on input line 47.
-Package hyperref Info: Link coloring ON on input line 47.
+(Font)                  LS2/stixtt/b/n --> TU/lmtt/b/n on input line 52.
+Package hyperref Info: Link coloring ON on input line 52.
 (sap586.out) (sap586.out)
 \@outlinefile=\write4
 \openout4 = `sap586.out'.
 
 
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 Missing character: There is no ॐ in font t1-stixgeneral!
-LaTeX Font Info:    Trying to load font information for TU+stix on input line 5
-5.
-LaTeX Font Info:    No file TUstix.fd. on input line 55.
+LaTeX Font Info:    Trying to load font information for TU+stix on input line 6
+0.
+LaTeX Font Info:    No file TUstix.fd. on input line 60.
 
 LaTeX Font Warning: Font shape `TU/stix/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 55.
+(Font)              using `TU/lmr/m/n' instead on input line 60.
 
 LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
-ne 55.
+ne 60.
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixex on input lin
-e 55.
+e 60.
 
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stixex.fd
 File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input l
-ine 55.
+ine 60.
 
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixfrak.fd
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixbb on input lin
-e 55.
+e 60.
 
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixbb.fd
 File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixcal on input li
-ne 55.
+ne 60.
 
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stixcal.fd
 File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
 ons
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixsf on input lin
-e 55.
+e 60.
 
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls1stixsf.fd
 File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixtt on input lin
-e 55.
+e 60.
 
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/stix\ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
 
 
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
 
 
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -1213,55 +1224,62 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 55.
+(Font)              size <7> substituted on input line 60.
 
 LaTeX Font Info:    Trying to load font information for TS1+stix on input line 
-56.
+61.
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/stix\ts1stix.fd
 File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 9
-5.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+03.
 
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 108--111
+contour: Using real outline for ` \textsc { $\squarecrossfill $ Software Engine
+er - Automation, Universal Instruments Corp., ny } ' on input line 126.
+contour: Using real outline for ` \emph {Sep 22 - present } ' on input line 126
+.
+contour: Using real outline for ` { \textbullet Supporting Fuzion platform from
+ a software perspective, } ' on input line 127.
+contour: Using real outline for ` { \textbullet Providing software upgrades, im
+provements, bugfixes and releases, } ' on input line 128.
+contour: Using real outline for ` { \textbullet Occasional site support, electr
+o-mechanical troubleshooting \& (Allen-Bradley) PLC applications. } ' on input 
+line 129.
+contour: Using real outline for ` { Tools \& technologies: } ' on input line 13
+1.
+contour: Using real outline for `{ - VS10-15 for CS \& CPP based USOS (Desktop)
+ applications, } ' on input line 131.
+contour: Using real outline for `{ - SlickEdit, Tornado \& CMD for C Language b
+ased MCOS (VxWorks) application, } ' on input line 132.
+contour: Using real outline for `{ - SourceTree \& GitBash as a Software Versio
+n Controller, } ' on input line 133.
+contour: Using real outline for `{ - Jira as an agile project management tool }
+ ' on input line 134.
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--119
+Underfull \hbox (badness 10000) in paragraph at lines 169--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--126
+Underfull \hbox (badness 10000) in paragraph at lines 175--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--134
+Underfull \hbox (badness 10000) in paragraph at lines 182--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--147
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--153
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--158
+Underfull \hbox (badness 10000) in paragraph at lines 188--191
 
  []
 
@@ -1280,24 +1298,18 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `sap586.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `sap586.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  59AC53B4F1BCE9D387191CAD700F6824;541.
+Package rerunfilecheck Info: File `sap586.out' has not changed.
+(rerunfilecheck)             Checksum: C6B5445F41580EC10D4184D6F2D8B726;414.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 166 ({)
+### simple group (level 1) entered at line 199 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 33697 strings out of 409617
- 668179 string characters out of 5774013
- 1942191 words of memory out of 5000000
- 55273 multiletter control sequences out of 15000+600000
+ 33756 strings out of 409617
+ 669331 string characters out of 5774013
+ 1946191 words of memory out of 5000000
+ 55321 multiletter control sequences out of 15000+600000
  610855 words of font info for 126 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  99i,9n,101p,1197b,331s stack positions out of 10000i,1000n,20000p,200000b,200000s

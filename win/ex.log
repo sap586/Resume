@@ -1,0 +1,27 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.3.15)  15 MAR 2024 21:21
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./ex.tex
+(ex.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+
+! LaTeX Error: File `simplehipstercv.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 00:wq
+! Interruption.
+<to be read again> 
+                   }
+l.8 \usepackage
+               [utf8]{inputenc}^^M
+? 
+! Interruption.
+<argument> __file_size:n {00:wq.cls}
+                                    
+l.8 \usepackage
+               [utf8]{inputenc}
+? 

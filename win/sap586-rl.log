@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.3.15)  16 MAR 2024 14:23
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.3.15)  16 MAR 2024 14:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./sap586.tex
-(sap586.tex
+**./sap586-rl.tex
+(sap586-rl.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -1005,8 +1005,8 @@ ions\pgflibrarydecorations.text.code.tex
 (C:\Users\smith\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-(sap586.aux)
-\openout1 = `sap586.aux'.
+(sap586-rl.aux)
+\openout1 = `sap586-rl.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
@@ -1151,9 +1151,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  LS2/stixtt/b/n --> TU/lmtt/b/n on input line 52.
 Package hyperref Info: Link coloring ON on input line 52.
-(sap586.out) (sap586.out)
+(sap586-rl.out) (sap586-rl.out)
 \@outlinefile=\write4
-\openout4 = `sap586.out'.
+\openout4 = `sap586-rl.out'.
 
 
 Missing character: There is no ॐ in font t1-stixgeneral!
@@ -1285,7 +1285,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--191
 
 [1
 
-] (sap586.aux)
+] (sap586-rl.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1298,7 +1298,7 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `sap586.out' has not changed.
+Package rerunfilecheck Info: File `sap586-rl.out' has not changed.
 (rerunfilecheck)             Checksum: C6B5445F41580EC10D4184D6F2D8B726;414.
  )
 (\end occurred inside a group at level 1)
@@ -1307,11 +1307,11 @@ Package rerunfilecheck Info: File `sap586.out' has not changed.
 ### bottom level 
 Here is how much of TeX's memory you used:
  33756 strings out of 409617
- 669331 string characters out of 5774013
+ 669391 string characters out of 5774013
  1946191 words of memory out of 5000000
  55321 multiletter control sequences out of 15000+600000
  610855 words of font info for 126 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 99i,9n,101p,1197b,331s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,9n,101p,1200b,331s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on sap586.pdf (1 page).
+Output written on sap586-rl.pdf (1 page).

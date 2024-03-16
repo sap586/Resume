@@ -1,0 +1,202 @@
+\documentclass[a4paper]{article}
+\usepackage[a4paper, total={6in, 8in}, margin=0.5in]{geometry}
+\usepackage{marvosym}
+\usepackage{fontspec}
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+%\begin{comment}
+%\end{comment}
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+\usepackage{hyperref}
+\usepackage{lipsum}
+\usepackage{stix}
+%\usepackage{twemojis}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[
+%SmallCapsFont = Fontin-SmallCaps.otf,
+%BoldFont = Fontin-Bold.otf,
+%ItalicFont = Fontin-Italic.otf
+%]
+%{Fontin.otf}
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+\hyphenation{im-pre-se}
+\usepackage[absolute]{textpos}
+\usepackage{amssymb}
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+\usepackage{fontspec}
+
+\usepackage[T1]{fontenc}% http://ctan.org/pkg/fontenc
+\usepackage[outline]{contour}% http://ctan.org/pkg/contour
+\usepackage{xcolor}% http://ctan.org/pkg/xcolor
+
+
+%----------
+\usepackage{worldflags}
+%----------
+
+\newcommand{\apple}{\char"F8FF}
+\usepackage{lipsum}
+\usepackage{setspace}
+
+
+
+\begin{document}
+\pagestyle{empty} 						% non-numbered pages
+\font\fb=''[cmr10]'' 						%for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par	{\centering
+	ॐ
+%	{\setmainfont{Apple Chancery} \apple}																\\
+	\href{https://sap586.github.io/LivingSpace/}{$ \Uparrow$}{sagarPanchal}								\\
+	\small \href{mailto:sap586@nyu.edu}{sap586@nyu.edu}		\textbullet{+1 (607) 314-0114}	
+														\textbullet {Endicott, NY (open to relocate)}	\\
+	\small \href{https://www.linkedin.com/in/sap586/}{https://www.linkedin.com/in/sap586/}				\\
+	\small NEEDS SPONSORSHIP																			\par}
+	
+%Section: About--------------------------------------
+\section	{	About		}
+
+	\begin{tabular}{lr}
+		\textsc{	Self-motivated, independent \& organized individual.										}\\
+		\textsc{	Quick-learner.																				}\\
+		\textsc{	Looking forward to a position that offers better individual \& professional growth.			}
+	\end{tabular}
+	\begin{spacing}{0.4}
+	\end{spacing}
+
+	
+%Section: My Philosophy--------------------------------------
+%\section	{	My Philosophy		}
+%
+%	\begin{tabular}{lr}
+%		\textsc{	I believe that humanity is the greatest religion and every one has equal right to educate themselves,													}\\
+%		\textsc{	explore, pursue their dreams and live life to the fullest.		}\\
+%		\textsc{	We have to become a better human before we can become a good engineer, scientist or an artist.													}
+%	\end{tabular}
+%	\begin{spacing}{0.5}
+%	\end{spacing}
+
+%Section: Education--------------------------------------
+\section	{	Education		}
+	\begin{tabular}{rl}
+		\small{}\textsc{	Jan 2016-17	} 	& 	\textsc{	MS, Electrical \& Computer engineering 		\small { - 3.41/4}		}	\\
+ 											& 	\textsc{	Polytechnic institute of technology, NYU							}	\\
+ 		\small{}\textsc{	Jun 2010-14	} 	& 	\textsc{	BE, Instrumentation \small{\&} Controls		\small { - 7.04/10}		}	\\
+ 											& 	\textsc{	Svit, GTU															}	\\
+	\end{tabular}
+	\begin{spacing}{0.1}
+	\end{spacing}
+
+%Section: Technical Skills--------------------------------------
+\section{		Skills																													}
+	\begin{tabular}{rl}	\small{}
+	 	\small{}\textsc{	Languages:			}	& \textsc{	java(primary), c\#(secondary), c/c\texttt{++}, git, \LaTeX (tertiary),	}	\\
+													& \textsc{	web(html, css, js)														} 	\\
+ 		\small{}\textsc{	Automation:			}	& \textsc{	PLCs(ladder-logic, FBD), hmi/scada,										}	\\
+													& \textsc{	micro-controllers \& single board computers								} 	\\
+ 		\small{}\textsc{	Industries served:	}	& \textsc{	machineries, manufacturing, control panels, solar energy,				}	\\
+													& \textsc{	Education																} 	\\
+	\end{tabular}
+	\begin{spacing}{0.5}
+	\end{spacing}
+
+%Section: Work--------------------------------------
+\section	{	Work Experience																										}
+%
+
+\renewcommand{\arraystretch}{1.0}
+\contourlength{0.1pt}
+\contournumber{1}%
+%\begin{tabular}{lc}
+%  \verb|bold| & bold \\
+%  \verb|\textbf{bold}| & \textbf{bold} \\
+%  \verb|\contour{black}{bold}| & \contour{green}{bold}
+%\end{tabular}
+
+\contour{black}	{ \textsc	{	$\squarecrossfill$	 Software Engineer - Automation, Universal Instruments Corp., ny	}	}		\hfill \contour{black}{ \emph {Sep 22 - present } }	\\
+\contour{black}	{			{	\textbullet	Supporting Fuzion platform from a software perspective,										}	}	\\
+\contour{black}	{			{	\textbullet	Providing software upgrades, improvements, bugfixes and releases,							}	}	\\
+\contour{black}	{			{	\textbullet	Occasional site support, electro-mechanical troubleshooting \& (Allen-Bradley) PLC applications.	}	}	\\
+\begin{tabular}{rl}
+\contour{black}	{			{		Tools \& technologies:	} }	&	\contour{black}{{	-	VS10-15 for CS \& CPP based USOS (Desktop) applications,					}	}	\\
+																&	\contour{black}{{	-	SlickEdit, Tornado \& CMD for C Language based MCOS (VxWorks) application,	}	}	\\
+																&	\contour{black}{{	-	SourceTree \& GitBash as a Software Version Controller,						}	}	\\
+																&	\contour{black}{{	-	Jira as an agile project management tool									}	}	\\
+\end{tabular}
+
+
+\begin{spacing}{1}
+\end{spacing}
+%
+
+	{ \textsc	{	$\square$	 Automation Engineer, Nor-cal controls, ca	}	}		\hfill { \emph {Jan - Jul 22 	} 	}	\\
+	{			{	\textopenbullet	Supported automation software development for Solar power plants.						}	}	\\
+\begin{tabular}{rl}
+	{			{		Tools \& technologies:	} }	&	{	{	-	Ignition SCADA - Python, GE PLC, SEL-RTAC					}	}	\\
+\end{tabular}
+%
+\begin{spacing}{1}
+\end{spacing}
+	{ \textsc	{	$\square$	 Software Engineer - Machine Automation, Scientific Components Corp., ny	}	}		\hfill { \emph {Feb 18 - Nov 21 		} 	}	\\
+	{			{	\textopenbullet	Provided software upgrades, improvements and bug-fixes for Rotary Machines, Vision Systems and Laser Measurement Systems.	}	}	\\
+	{			{	\textopenbullet	Web-Development and deployment for the company website \href{https://www.minicircuits.com/}{https://www.minicircuits.com/}.	}	}	\\
+\begin{tabular}{rl}
+	{			{		Tools \& technologies:	} }	&	{	{	-	Apache NetBeans \& Tomcat for Java Applications and web deployment					}	}	\\
+													&	{	{	-	HTML-CSS-JS for Web-development 					}	}	\\
+													&	{	{	-	JavaFX \& awt for Desktop applications 				}	}	\\
+													&	{	{	-	Git \& Jira as supporting tools 					}	}	\\
+\end{tabular}
+%
+\begin{spacing}{1}
+\end{spacing}
+	{ \textsc	{	$\square$	 Developer Intern, revmax fleet optimization, ny	}	}		\hfill { \emph {Jun 17 - Jan 18 		} 	}	\\
+	{			{	\textopenbullet	Developed Firmware for SidewalkIQ Sensor using Doppler Radar, Particle Device \& Arduino-C to monitor sidewalk activities.	}	}	\\
+	{			{	\textopenbullet	Successfully deployed sensors at various NYC locations.	}	}	\\
+	{			{	\textopenbullet	R\&D to improve data consistency and efficiency of data storage/transfer to Server for further processing.	}	}	\\
+%
+\begin{spacing}{0.1}
+\end{spacing}
+\textsc	{	$\square$	Instructor (ITEST Program), robotics \& mechatronics dpt., NYU			} \hfill \emph {May - Aug 17	}	\\
+		{	\textopenbullet 	Mentor to Robotics Club Team for Robotics competitions (First Robotics \& Vex Robotics).												}	\\
+		{	\textopenbullet 	Teaching concepts of Computer Programming to Robotics Club Team.																		}	\\
+%
+\begin{spacing}{0.1}
+\end{spacing}
+\textsc	{	$\square$	Lead Instructor (CREST Program), center for k12 stem education, NYU		} \hfill \emph {Sep 17 - Dec 17	}	\\
+		{	\textopenbullet 	Training High School Interns with Computer Programming (Arduino C), IoT, Robotics \& 3D-Printing activities $\circ$											}	\\
+		{	\textopenbullet 	\textsc{Autonomous Car (Mouse in a Maze)} - STM32 Board: \href{https://github.com/sap586/RTES_Project}{https://github.com/sap586/RTES\_Project} $\circ$			}	\\
+		{	\textopenbullet 	\textsc{Wireless Robot Controller} - Arduino: \href{https://github.com/sap586/WirelessRobotDay5Activity}{https://github.com/sap586/WirelessRobotDay5Activity} $\circ$	}	\\
+%
+\begin{spacing}{0.1}
+\end{spacing}
+\textsc	{	$\square$	Design Engineer, prima automation, IN									} \hfill \emph {Jun 14 - Jan 16	}	\\
+		{	$\circ$ PLC $\circ$ SCADA $\circ$ Siemens $\circ$ Allen-Bradley $\circ$ Front-end (UX) $\circ$																	}	\\													
+		{	$\circ$ Electrical \& Control Panel Layout $\circ$ E-plan $\circ$ AutoCAD $\circ$																}	\\
+%
+\begin{spacing}{0.1}
+\end{spacing}
+\textsc	{	$\square$	Trainee Engineer, neoplast (I) pvt. ltd., IN							} \hfill \emph {Aug 13 - May 14	}	\\
+ 		{	$\circ$ PLC $\circ$ SCADA $\circ$ Siemens $\circ$																					}	\\
+%
+
+
+%\par	{\hfill
+%	{where music meets software, checkout my new project : \href{https://sap586.github.io/beep/}{beepBox} (inspired from https://www.beepbox.co/)}																														\\
+%		\par}
+		
+		
+\hrule
+\small 	{	\hfill {This document is prepared using \LaTeX. Click \href{https://github.com/sap586/Resume/blob/05bb3cfd9c2e7bee89acee6b2e3a3fd456201d5d/win/sap586.tex}{here} to download the source code.}
+
+
+\end{document}

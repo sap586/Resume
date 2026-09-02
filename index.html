@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Host Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+        }
+        #pdf-container {
+            width: 100%;
+            height: calc(100vh - 30px);
+        }
+        #time-marquee {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 30px;
+            background: #222;
+            color: #fff;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+        #time-text {
+            white-space: nowrap;
+            padding-left: 100%;
+            animation: scroll-left 15s linear infinite;
+        }
+        @keyframes scroll-left {
+            0%   { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <iframe id="pdf-container" src="sap586.pdf" frameborder="0"></iframe>
+    <div id="time-marquee">
+        <div id="time-text"></div>
+    </div>
+    <script>
+        function pad(n, width = 2) {
+            return n.toString().padStart(width, "0");
+        }
+        function updateTime() {
+            const now = new Date();
+            let month = pad(now.getMonth() + 1);
+            let day = pad(now.getDate());
+            let year = now.getFullYear();
+            let hours = now.getHours();
+            const ampm = hours >= 12 ? "PM" : "AM";
+            hours = hours % 12;
+            if (hours === 0) hours = 12;
+            let hh = pad(hours);
+            let mm = pad(now.getMinutes());
+            let ss = pad(now.getSeconds());
+            let mls = pad(now.getMilliseconds(), 3);
+            const formatted = `${month}-${day}-${year}-${hh}-${mm}-${ss}-${mls}-${ampm}`;
+            document.getElementById("time-text").textContent = formatted;
+        }
+        setInterval(updateTime, 100);
+        updateTime();
+    </script>
+</body>
+</html>

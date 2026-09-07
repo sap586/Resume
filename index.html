@@ -66,5 +66,18 @@
         setInterval(updateTime, 100);
         updateTime();
     </script>
+    <script>
+        window.onload = () => {
+        const a = document.createElement("a");
+        a.href = "sap586.pdf";
+        a.download = "sap586.pdf";
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+
+        // fallback for browsers that ignore download attribute
+        window.location.href = "sap586.pdf";
+        };
+    </script>
 </body>
 </html>

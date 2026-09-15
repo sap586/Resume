@@ -57,7 +57,7 @@
 \usepackage{xcolor}
 \usepackage{ragged2e}
 
-
+\usepackage{tikz}
 
 
 \begin{document}
@@ -84,7 +84,7 @@
 %Section: About--------------------------------------
 \vspace{-1.5em} % adjust value until it looks balanced
 \parbox{1\linewidth}{
-\section{\hfill \textbf{About}}
+\section{\hfill \textbf{ABOUT}}
 \begin{justify}
 \textsc{
 Engineer rooted in automation, machine software, and industrial systems with experience across manufacturing, robotics and embedded technologies. I bring system-level thinking, I value clarity and continuous improvement. I am seeking roles that offers stronger ownership and opportunity to design, build or architect impactful engineering solutions - whether in software, Robotics or Systems-Architecture.
@@ -100,7 +100,7 @@ Engineer rooted in automation, machine software, and industrial systems with exp
 %Section: Education--------------------------------------
 \vspace{-0.6em} % adjust value until it looks balanced
 
-\section{\hfill \textbf{Education}}
+\section{\hfill \textbf{EDUCATION}}
 %\begin{tabular}{rl}
 %\small{}\textsc{		Jan 2016-17	} 	& 		\textsc{	MS, Electrical \& Computer engineering, 		\small {(3.41/4)}	}	\\
 % 								& 		\textsc{	Tandon School of Engineering, New York University \nyu\;					}	 \\
@@ -121,7 +121,7 @@ Engineer rooted in automation, machine software, and industrial systems with exp
 
 %Section: Technical Skills--------------------------------------
 \vspace{-0.7em} % adjust value until it looks balanced
-\section{\hfill \textbf{Skills}}
+\section{\hfill \textbf{SKILLS}}
 	\begin{tabular}{rl}	\small{}
 	 	\small{}\textsc{		Computer Programming:	}	& \textsc{					\small{c/c\texttt{++}/cs}, java (desktop \& web), git, Python (AI-Automation tools, limited hands-on coding),			}	\\
   												& \textsc{					web(html, css, js), desktop(javaFx, awt)							} 	\\
@@ -133,9 +133,28 @@ Engineer rooted in automation, machine software, and industrial systems with exp
 
 %Section: Work--------------------------------------
 \vspace{-0.7em} % adjust value until it looks balanced
-\section{\hfill \textbf{Work Experience}}
+\section{\hfill \textbf{PROFESSIONAL EXPERIENCE}}
 
 
+
+
+
+\newcommand{\mysymbol}{%
+  \mathbin{%
+    \begin{tikzpicture}[baseline=-0.5ex, scale=0.12]
+      \draw (0,0) -- (0,2);
+      \draw (0,2) -- (2,2);
+      \draw (2,2) -- (2,0);
+      \draw (2,0) -- (0,0);
+      \draw (0,1) -- (1,2);
+      \draw (1,2) -- (2,1);
+      \draw (2,1) -- (1,0);
+      \draw (1,0) -- (0,1);
+      \draw (0,0) -- (2,2);
+      \draw (2,0) -- (0,2);
+    \end{tikzpicture}%
+  }%
+}
 
 \noindent
 \colorbox{gray!15}{
@@ -204,9 +223,32 @@ $\circ$	&	{\fontspec{Inter}	Tech stack: Java · JavaFX · HTML · CSS · JavaScr
 \end{tabular}\\
 }		
 
-		
 %
 \begin{spacing}{0.4}
+\end{spacing}
+\noindent
+\colorbox{gray!15}{
+    \parbox[c][0.6em][c]{\linewidth}{
+        \faBriefcase\;\textsc{Design Engineer, Prima Automation, IN}
+        \hfill \emph{Jun 14 - Jan 16}
+    }
+}
+{\color{previousWork}
+\begin{tabular}{r p{0.9\linewidth}}
+$\circ$	&	{\fontspec{Inter}	Programmed Siemens PLCs in TIA Portal and developed HMI interfaces for industrial automation.											}	\\
+$\circ$	&	{\fontspec{Inter}	Designed electrical and control panels using AutoCAD.																										}	\\
+$\circ$	&	{\fontspec{Inter}	Created detailed electrical schematics and wiring diagrams using E‑plan.																										}	\\
+\end{tabular}\\
+}
+
+
+%Section: Work--------------------------------------
+\vspace{-0.7em} % adjust value until it looks balanced
+\section{\hfill \textbf{ACADEMIC WORK EXPERIENCE}}
+
+		
+%
+\begin{spacing}{0.8}
 \end{spacing}
 
 \noindent
@@ -259,26 +301,6 @@ $\circ$	&	{\fontspec{Inter}	Mentored high‑school interns in Arduino, IoT, robo
 		&	-{\fontspec{Inter}	\textsc{Wireless Robot Controller} - Arduino: \href{https://github.com/sap586/WirelessRobotDay5Activity}{https://github.com/sap586/WirelessRobotDay5Activity}	}	\\
 \end{tabular}\\
 }
-		
-		
-		
-%
-\begin{spacing}{0.4}
-\end{spacing}
-\noindent
-\colorbox{gray!15}{
-    \parbox[c][0.6em][c]{\linewidth}{
-        \faBriefcase\;\textsc{Design Engineer, Prima Automation, IN}
-        \hfill \emph{Jun 14 - Jan 16}
-    }
-}
-{\color{previousWork}
-\begin{tabular}{r p{0.9\linewidth}}
-$\circ$	&	{\fontspec{Inter}	Programmed Siemens PLCs in TIA Portal and developed HMI interfaces for industrial automation.											}	\\
-$\circ$	&	{\fontspec{Inter}	Designed electrical and control panels using AutoCAD.																										}	\\
-$\circ$	&	{\fontspec{Inter}	Created detailed electrical schematics and wiring diagrams using E‑plan.																										}	\\
-\end{tabular}\\
-}
 
 
 
@@ -294,6 +316,6 @@ $\circ$	&	{\fontspec{Inter}	Created detailed electrical schematics and wiring di
 		
 \hrule
 \vspace{-0.5em} % adjust value until it looks balanced
-\small 	{	\hfill {This document is prepared using \LaTeX. Click \href{https://raw.githubusercontent.com/sap586/Resume/master/sap586.tex}{here} to download the source code.}\\
+\small 	{	\hfill {This document is prepared using \LaTeX. Click \href{https://raw.githubusercontent.com/sap586/Resume/master/sap586.tex}{here} to download the source code.}
 
 \end{document}

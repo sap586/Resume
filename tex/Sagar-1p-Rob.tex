@@ -7,27 +7,19 @@
     top=0.1in,
     bottom=0.1in
 ]{geometry}
-\usepackage{marvosym}
-\usepackage{fontspec}
-\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\usepackage{url,parskip} 	%other packages for formatting
 \usepackage[usenames,dvipsnames]{xcolor}
-\usepackage{supertabular} 				%for Grades
 \usepackage{titlesec}					%custom \section
 \usepackage{hyperref}
-\usepackage{lipsum}
 \usepackage{stix}
 \usepackage[absolute]{textpos}
-\usepackage{amssymb}
 \usepackage{fontspec}
-\usepackage{worldflags}
 \usepackage{graphicx}
+\usepackage{color}
 \usepackage{lipsum}
-\usepackage{setspace}
 \usepackage{fontawesome5}
-\usepackage{xcolor}
 \usepackage{ragged2e}
 
-\RequirePackage{color,graphicx}
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
 \defaultfontfeatures{Mapping=tex-text}
 \titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule]
@@ -42,13 +34,13 @@
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}
 \definecolor{previousCompany}{rgb}{0.1,0.1,0.1}
 \definecolor{previousRole}{rgb}{0.1,0.1,0.1}
-\definecolor{previousWork}{rgb}{0.1,0.1,0.1}
+\definecolor{previousWork}{rgb}{0.4,0.4,0.4}
 \definecolor{currentCompany}{rgb}{0,0,0}
 \definecolor{currentRole}{rgb}{0,0,0}
 \definecolor{currentWork}{rgb}{0,0,0}
 \newcommand{\apple}{\char"F8FF}
 \newcommand{\SectionSize}{\large}
-\newcommand{\SpaceBetweenJobs}{\vspace{0em}}
+\newcommand{\SpaceBetweenJobs}{\vspace{-1em}}
 \newcommand{\nyu}{\raisebox{-0.8ex}{\includegraphics[height=1.2em]{NYU.png}}}
 \newcommand{\uic}{\raisebox{-0.4ex}{\includegraphics[height=1.2em]{UIC.png}}}
 \newcommand{\CurrentWorkBullet}[1]{
@@ -91,7 +83,7 @@ Engineer with system-level expertise in automation, robotics, machine software a
 }
 
 %Section: Education--------------------------------------
-\vspace{0.2em} % adjust value until it looks balanced
+\vspace{0em} % adjust value until it looks balanced
 \section{\SectionSize{\textbf{Education}}}
 \begin{tabular}{rl}
 \textsc{	MS, Computer engineering \small {(3.41/4)}		}						&	--	\textsc{	Dec-17 	\faGraduationCap		}	\\
@@ -101,7 +93,7 @@ Engineer with system-level expertise in automation, robotics, machine software a
 \end{tabular}
 
 %Section: Skills--------------------------------------
-\vspace{-1.5em} % adjust value until it looks balanced
+\vspace{-2em} % adjust value until it looks balanced
 \section{\SectionSize{\textbf{Skills}}}
 \begin{tabular}{rl}	\small{}
 
@@ -109,8 +101,8 @@ Engineer with system-level expertise in automation, robotics, machine software a
 	\small{}\textsc{		Programming:			}	& \textsc{	\small{c/c\texttt{++}}, CS, Java(primary), Python (automation and AI scripting),		}	\\
 														& \textsc{	web(html, css, js), databases(SQL, MDB)													} 	\\
 	\small{}\textsc{		Automation \& Robotics:	}	& \textsc{	Real-time systems (VxWorks), MV3100 industrial controller,								}	\\
-														& \textsc{	motion control (rotary, cartesian, SMT automation systems),								} 	\\
-														& \textsc{	machine vision (Cognex, Keyence, OpenCV), MES integration (manufacturing workflows)		} 	\\
+														& \textsc{	machine vision (Cognex, Keyence, OpenCV),												} 	\\
+														& \textsc{	motion control,	PLC Programming (Ladder \& FBD), MES/SCADA integration					} 	\\
 	\small{}\textsc{		SCM \& Tools:			}	& \textsc{	Git (Bash \& Sourcetree), Jira workflows, VS Code, Visual Studio (2010, 15, 22),		}	\\
 														& \textsc{	NetBeans, Wireshark, WindRiver, Tornado													} 	\\
 \end{tabular}
@@ -120,47 +112,45 @@ Engineer with system-level expertise in automation, robotics, machine software a
 \section{\SectionSize\textbf{Professional Experience}}
 
 \noindent
-\parbox[c][2em][c]{\linewidth}{   % <— controls height
-{\color{currentCompany}
-{\LARGE \faBriefcase\; \textsc{Universal Instruments, NY}}}
-}
-{\color{currentRole}
-\noindent\hspace*{1.0em}{\large \faUserTie\; \textsc{Software Engineer III - Automation}}
-\hfill \emph{Sep 22 - present}
+\colorbox{gray!15}{
+    \parbox[c][0.8em][c]{\linewidth}{   % <— controls height
+        {\large \faBriefcase\; \uic\; \textsc{Software Engineer III - Automation, Universal Instruments, NY}}
+        \hfill \emph{Sep 22 - present}
+    }
 }
 {\color{currentWork}
-\begin{tabular}{r p{0.9\linewidth}}
+\begin{tabular}{r p{0.95\linewidth}}
 \multicolumn{2}{l}{\fontspec{Inter}Core Responsibilities:} \\
-\CurrentWorkBullet{	Maintain and enhance high-precision, high-speed software modules for Fuzion SMT Platform.}
-\CurrentWorkBullet{	Provide remote production-line support by investigating issues, analyzing logs, replicating site conditions to perform root‑cause analysis, reviewing configurations and delivering software fixes, patches, and release updates.}
-\CurrentWorkBullet{	Enable field and application engineers to correctly set up and validate applications by offering technical guidance, interpreting machine data and supplying required configuration or software updates.}
+\textbullet	&		{\fontspec{Inter}	Maintain and evolve high-precision, high-speed software modules across the Fuzion SMT platform, ensuring reliability, performance, and production readiness.	}	\\
+\textbullet	&		{\fontspec{Inter}	Lead remote production-line diagnostics by analyzing logs, replicating site conditions, performing root-cause investigations and delivering targeted fixes, patches, and release updates.	}	\\		
+\textbullet	&		{\fontspec{Inter}	Conduct code reviews and enforce software-quality standards across the platform, ensuring robust design, maintainability and consistency in mission-critical automation workflows.	}	\\
+\textbullet	&		{\fontspec{Inter}	Enable field and application engineers to successfully deploy and validate applications by providing technical guidance, interpreting machine data, and supplying required configurations or software updates.	}	\\
 \multicolumn{2}{l}{\fontspec{Inter}Key contributions:} \\
-\CurrentWorkBullet{	Built the SBS feature integrating Keyence SR‑X300, delivering Fuzion’s first side‑barcode scanning capability with live‑view, traceability, and error‑recovery support.}
-\CurrentWorkBullet{	Upgraded the AMS workflow from one point to 13 locations on wafer, delivering a major accuracy improvement in wafer placement and calibration.}
-\CurrentWorkBullet{	Built the wafer‑to‑board mapping system that converts customer wafer maps into Fuzion board templates, enabling direct use of wafer data and eliminating hours of manual template creation.}
-\CurrentWorkBullet{	Delivered Selective Placement, enabling Fuzion’s first smart pick/buffer/place workflow using DFF‑based categories and avoiding‑priority rules, improving overall product quality.}
-\CurrentWorkBullet{	Implemented AVP, adding user‑defined fiducial capability beyond fixed shapes and improving alignment flexibility across ECS, NPI, and Production workflows.}
-\CurrentWorkBullet{	Integrated Cognex QuickBuild (VPP) with MCOS↔QBIT TCP/IP triggers and full reject/retry handling, enabling Dispense Quality Inspection on the Fuzion Precision‑Bonder platform for the first time.}
-\CurrentWorkBullet{	Delivered key platform enhancements — Light Intensity Controller, nested‑tray support, isosceles fiducial, and configurable park‑position — among many other features across Fuzion.}
-\end{tabular}\\
+\textbullet	&		{\fontspec{Inter}	Delivered Selective Placement, Fuzion’s first smart pick/buffer/place workflow using DFF-based categories and avoiding-priority rules, improving product quality and placement intelligence.	}	\\
+\textbullet	&		{\fontspec{Inter}	Engineered SBS using Keyence SR-X300, delivering Fuzion’s first side-barcode scanning capability with live-view, traceability, and full error-recovery support.}	\\
+\textbullet	&		{\fontspec{Inter}	Upgraded the AMS workflow from a single point to 13 wafer-level locations, significantly improving placement accuracy and calibration robustness.}	\\
+\textbullet	&		{\fontspec{Inter}	Built the wafer-to-board mapping system that converts customer wafer maps into Fuzion board templates, eliminating hours of manual template creation and enabling direct wafer-data usage.}	\\
+\textbullet	&		{\fontspec{Inter}	Implemented AVP, enabling user-defined fiducial finds across ECS, NPI, and Production workflows, increasing alignment flexibility and reducing setup constraints.}	\\
+\textbullet	&		{\fontspec{Inter}	Integrated Cognex QuickBuild (VPP) with MCOS↔QBIT TCP/IP triggers and full reject/retry handling, enabling Dispense Quality Inspection on the Precision-Bonder platform for the first time.}	\\
+\textbullet	&		{\fontspec{Inter}	Delivered multiple platform-level enhancements including the Light Intensity Controller, nested-tray support, isosceles fiducial and configurable park-position, strengthening core system capability.}	\\
+\end{tabular}
 }
 
 \SpaceBetweenJobs
 	
 %	
 \noindent
-\parbox[c][2em][c]{\linewidth}{   % <— controls height
-{\color{previousCompany}
-{\large \faBriefcase\; \textsc{Nor-Cal controls, CA}}}
-}
-{\color{previousRole}
-\noindent\hspace*{1.0em}{\large $\square$\; \textsc{Automation Engineer}}
-\hfill \emph{Jan 22 - Jul 22}
+\colorbox{gray!15}{
+    \parbox[c][0.6em][c]{\linewidth}{
+        \faBriefcase\;\textsc{Automation Engineer	, Nor-Cal controls, Ca}
+        \hfill \emph{Jan - Jul 22}
+    }
 }
 {\color{previousWork}
-\begin{tabular}{r p{0.9\linewidth}}
-\PreviousWorkBullet{	Designed SCADA interfaces and integrated PLC logic with inverter and sensor data to deliver reliable solar power-plant automation.	}
-\end{tabular}\\
+\begin{tabular}{r p{0.95\linewidth}}
+$\circ$	&	{\fontspec{Inter}	Designed SCADA interfaces and integrated PLC logic with inverter and sensor data to deliver reliable solar power-plant automation including FAT and commissioning support.	}	\\
+$\circ$	&	{\fontspec{Inter}	Tech stack: Ignition SCADA · GE PLC · SEL‑RTAC · Red Lion												}	\\
+\end{tabular}
 }
 
 \SpaceBetweenJobs
@@ -168,88 +158,96 @@ Engineer with system-level expertise in automation, robotics, machine software a
 %
 	
 \noindent
-\parbox[c][2em][c]{\linewidth}{   % <— controls height
-{\color{previousCompany}
-{\large \faBriefcase\; \textsc{Mini-Circuits, NY}}}
-}
-{\color{previousRole}
-\noindent\hspace*{1.0em}{\large $\square$\; \textsc{Software Engineer - Machine Automation}}
-\hfill \emph{Feb 18 - Nov 21}
+\colorbox{gray!15}{
+    \parbox[c][0.6em][c]{\linewidth}{
+        \faBriefcase\;\textsc{Software Engineer - Machine Automation, Mini-Circuits, NY}
+        \hfill \emph{Feb 18 - Nov 21}
+    }
 }
 {\color{previousWork}
-\begin{tabular}{r p{0.90\linewidth}}
-\PreviousWorkBullet{	Developed and enhanced Automation Software for multi-function rotary systems, coordinating servo-motion via PCI-e interfaces and integrating sensor-driven workflows, computer-vision inspection and EVT test automation.	}
-\PreviousWorkBullet{	Built a standalone laser-measurement station using precision sensing to classify mechanical-switch dimensions, improving QA accuracy and reducing manual effort.	}
-\end{tabular}\\
+\begin{tabular}{r p{0.95\linewidth}}
+$\circ$	&	{\fontspec{Inter}	Evolved automation software across rotary machines coordinating servo-motion via PCI-e, sensor‑driven logic, CV inspection, EVT automation, and database-supported workflows.	}	\\
+$\circ$	&	{\fontspec{Inter}	Enhanced precision laser-measurement stations, semiconductor-packaging machines, and PID-controlled TVAC systems by integrating database‑linked classification logic, improving QA reliability and reducing manual effort.	}	\\
+$\circ$	&	{\fontspec{Inter}	Built and modernized full-stack systems including the public shopping‑cart redesign, product‑visibility management and lifecycle-tracking tools, increasing platform reliability and removing hours of manual data handling.	}	\\
+\end{tabular}
 }
 
 \SpaceBetweenJobs
+
+{\color{previousCompany}
+\noindent
+\colorbox{gray!15}{
+    \parbox[c][0.6em][c]{\linewidth}{
+        \faBook\;\textsc{Developer Intern, RevMax Fleet Optimization, NY based startup}
+        \hfill \emph{Fall 2017}
+    }
+}
+{\color{previousWork}
+\begin{tabular}{r p{0.95\linewidth}}
+$\circ$	&	{\fontspec{Inter}	Developed Doppler-radar based pedestrian-counting device and transferred data to back-end services using BLE.			}	\\
+$\circ$	&	{\fontspec{Inter}	Deployed sensors at multiple NYC locations and validated field performance							}	\\
+\end{tabular}
+}
+\SpaceBetweenJobs
+
+{\color{previousCompany}
+\noindent
+\colorbox{gray!15}{
+    \parbox[c][0.6em][c]{\linewidth}{
+        \faBook\;\textsc{Instructor (ITEST Program), robotics \& mechatronics dpt., NYU}
+        \hfill \emph{Fall 2017}
+    }
+}
+{\color{previousWork}
+\begin{tabular}{r p{0.95\linewidth}}
+$\circ$	&	{\fontspec{Inter}	Mentored high‑school robotics teams in autonomous‑robot workflows for FIRST-Robotics/VEX competitions.							}	\\
+$\circ$	&	{\fontspec{Inter}	Taught foundational programming concepts in Arduino \& sensor-integration to student robotics teams.	}	\
+\end{tabular}
+}
+
+\SpaceBetweenJobs
+
+{\color{previousCompany}
+\noindent
+\colorbox{gray!15}{
+    \parbox[c][0.6em][c]{\linewidth}{
+        \faBook\;\textsc{Lead Instructor (CREST Program), Center for K12 STEM Education, NYU}
+        \hfill \emph{Summer 2017}
+    }
+}
+{\color{previousWork}
+\begin{tabular}{r p{0.95\linewidth}}
+$\circ$	&	{\fontspec{Inter}	Mentored high-school interns in Arduino, IoT, robotics, and 3D printing \& led STEM projects including:												}	\\
+		&	-{\fontspec{Inter}	\textsc{Autonomous Car (Mouse in a Maze)} - STM32 Board: \href{https://github.com/sap586/RTES_Project}{https://github.com/sap586/RTES\_Project}			}	\\
+		&	-{\fontspec{Inter}	\textsc{Wireless Robot Controller} - Arduino: \href{https://github.com/sap586/WirelessRobotDay5Activity}{https://github.com/sap586/WirelessRobotDay5Activity}	}	\\
+\end{tabular}
+}
+
+\SpaceBetweenJobs
+
+
 
 %--
 {\color{previousCompany}
 \noindent
-\parbox[c][2em][c]{\linewidth}{   % <— controls height
-{\large\faBriefcase\; \textsc{Prima Automation, Ahmedabad, INDIA}}}
-{\color{previousRole}
-\noindent\hspace*{1.0em}{\large $\square$\; \textsc{Automation Engineer}}
-\hfill \emph{Jun 15 - Jan 16}
+\colorbox{gray!15}{
+    \parbox[c][0.6em][c]{\linewidth}{
+        \faBriefcase\;\textsc{Automation Engineer, Prima Automation, Ahmedabad, IN}
+        \hfill \emph{Jun 14 - Jan 16}
+    }
+}
 {\color{previousWork}
-\begin{tabular}{r p{0.9\linewidth}}
-\PreviousWorkBullet{	Programmed Siemens PLCs and developed HMI interfaces for machine-level automation involving motion control and sensor integration and industrial communication protocols.	}
-\end{tabular}\\
+\begin{tabular}{r p{0.95\linewidth}}
+$\circ$	&	{\fontspec{Inter}	Engineered machine-automation workflows using Siemens PLCs \& HMI interfaces (TIA Portal) integrating motion control, sensors and industrial communication protocols across full design-to-deployment cycles.	}	\\
+$\circ$	&	{\fontspec{Inter}	Designed and validated electrical control systems - AutoCAD panel layouts, E-plan schematics, site installation, and FAT support - ensuring reliable integration between software, motion hardware, and production robotics.	}	\\
+\end{tabular}
 }
 
 \SpaceBetweenJobs
-
-%Section: Academic Work Experience--------------------------------------
-\vspace{1em} % adjust value until it looks balanced
-\section{\SectionSize\textbf{Academic Work Experience}}
-
-\noindent
-\parbox[c][2em][c]{\linewidth}{   % <— controls height
-{\color{previousCompany}
-{\large \faBook\; \textsc{RevMax Fleet Optimization, NY based startup}}}
-}
-{\color{previousRole}
-\noindent\hspace*{1.0em}{\large - \textsc{Developer Intern}}
-\hfill \emph{Fall 2017}
-}
-{\color{previousWork}
-\begin{tabular}{r p{0.9\linewidth}}
-\PreviousWorkBullet{	Built a BLE Doppler-radar pedestrian-counting device, covering firmware, sensor integration \& field-deployment.	}
-\end{tabular}\\
-}
-
-\SpaceBetweenJobs
-
-%--
-{\color{previousCompany}
-\noindent
-\parbox[c][2em][c]{\linewidth}{   % <— controls height
-{\large\faBook\; \textsc{New York university, NY}}}
-{\color{previousRole}
-\noindent\hspace*{1.0em}{\large - \textsc{Instructor (ITEST Program), robotics \& mechatronics dpt.}}
-\hfill \emph{Fall 2017}
-{\color{previousWork}
-\begin{tabular}{r p{0.9\linewidth}}
-\PreviousWorkBullet{	Mentored high-school robotics teams in Arduino-based programming, sensors and autonomous robot workflows.	}
-\end{tabular}\\
-}
-
-{\color{previousRole}
-\noindent\hspace*{1.0em}{\large - \textsc{Lead Instructor (CREST Program), Center for K12 STEM Education}}
-\hfill \emph{Summer 2017}
-}
-{\color{previousWork}
-\begin{tabular}{r p{0.9\linewidth}}
-\PreviousWorkBullet{	Led K-12 STEM instruction in robotics, Arduino, sensors and hands‑on project building.	}
-\end{tabular}\\
-}
 
 \vspace{0.8em}
 		
 \hrule
 
-\small 	{	\hfill {This document is prepared using \LaTeX. Click \href{https://raw.githubusercontent.com/sap586/Resume/refs/heads/main/tex/Sagar-1p-Rob.tex}{here} to download the source code.}\\
-
+\small 	{	\hfill {This document is prepared using \LaTeX. Click \href{https://raw.githubusercontent.com/sap586/Resume/refs/heads/main/tex/Sagar-1p-Rob.tex}{here} to download the source code.}
 \end{document}

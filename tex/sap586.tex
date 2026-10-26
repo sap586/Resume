@@ -17,7 +17,6 @@
 \usepackage{graphicx}
 \usepackage{color}
 \usepackage{lipsum}
-\usepackage{fontawesome5}
 \usepackage{ragged2e}
 \usepackage{fontspec}
 \usepackage{fontawesome5}
@@ -60,6 +59,27 @@
 	\begin{tikzpicture}[baseline=-0.6ex]
 		\draw[previousWork] (0,0) circle (1ex);
 		\fill[previousWork] (0,0) -- (#1:1ex) arc (#1:#2:1ex) -- cycle;
+	\end{tikzpicture}%
+	\hspace{1em}%
+}
+
+\newcommand*{\partcircfill}[1]{%
+	\hspace{-1em}%
+	\pgfmathsetmacro{\endangle}{90 - 3.6*#1}
+	\begin{tikzpicture}[baseline=-0.6ex]
+		\draw[previousWork] (0,0) circle (1ex);
+		\fill[previousWork] (0,0) -- (90:1ex) arc (90:\endangle:1ex) -- cycle;
+	\end{tikzpicture}%
+	\hspace{1em}%
+}
+
+\newcommand*{\pacman}[1]{%
+	\hspace{-1em}%
+	\pgfmathsetmacro{\mouth}{(100-#1)*1.8}
+	\begin{tikzpicture}[baseline=-0.6ex]
+		\fill[previousWork] (0,0) circle (1ex);
+		\fill[white] (0,0) -- (\mouth:1ex) arc (\mouth:-\mouth:1ex) -- cycle;
+		\draw[previousWork] (0,0) circle (1ex);
 	\end{tikzpicture}%
 	\hspace{1em}%
 }
@@ -107,7 +127,34 @@ comments
 
 \begin{tikzpicture}[overlay,remember picture]
 \draw[gray, line width=0.8pt, rounded corners=4pt]
-(-10cm,0.0cm) -- (-10cm,0.5cm) -- (-5cm,0.5cm) -- (-5cm,0cm) -- (10cm,0cm) -- (10cm,-0.2cm);
+(-10cm,0.0cm) -- (-10cm,0.5cm) -- (-7cm,0.5cm);
+\draw[gray, line width=0.8pt, rounded corners=4pt]
+(-7cm,0.5cm) -- (-6cm,0.5cm) -- (-6cm,0.25cm);
+\draw[gray, line width=0.8pt, rounded corners=4pt]
+(-6cm,0.25cm) -- (-6cm,0cm) -- (0cm,0cm);
+\draw[gray, line width=0.8pt, rounded corners=4pt]
+(0cm,0cm) -- (6cm,0cm);
+\draw[gray, line width=0.8pt, rounded corners=4pt]
+(6cm,0cm) -- (10cm,0cm) -- (10,-1.75cm) -- (5cm,-1.75cm);
+\draw[gray, line width=0.8pt, rounded corners=4pt]
+(5cm,-1.75cm) -- (-10cm,-1.75cm) -- (-10cm,-2.75cm);
+\draw[gray, line width=0.8pt, rounded corners=4pt]
+(-10cm,-2.75cm) -- (-10cm,-3.55cm) -- (-8cm,-3.55cm);
+\draw[gray, line width=0.8pt, rounded corners=4pt]
+(-8cm,-3.55cm) -- (10cm,-3.55cm) -- (10cm,-4.55cm);
+\draw[gray, line width=0.8pt, rounded corners=4pt]
+(10cm,-4.55cm) -- (10cm,-7.1cm) -- (-0cm,-7.1cm);
+\draw[gray, line width=0.8pt, rounded corners=4pt]
+(-0cm,-7.1cm) -- (-4.3cm,-7.1cm) -- (-4.3cm,-6.8cm);
+\draw[gray, line width=0.8pt, rounded corners=4pt]
+(-4.3cm,-6.8cm) -- (-4.3cm,-6.6cm) -- (-6.3cm,-6.6cm);
+\draw[gray, line width=0.8pt, rounded corners=4pt]
+(-6.3cm,-6.6cm) -- (-10cm,-6.6cm) -- (-10cm,-7.2cm);
+\draw[gray, line width=0.8pt, rounded corners=4pt]
+(-10cm,-7.2cm) -- (-10cm,-27.8cm) -- (0cm,-27.8cm);
+\draw[gray, line width=0.8pt, rounded corners=4pt]
+(0cm,-27.8cm) -- (10cm,-27.8cm) -- (10cm,-28.2cm);
+
 \end{tikzpicture}
 
 %Section: About--------------------------------------
@@ -122,15 +169,7 @@ Software Engineer with hands-on Machine operation experience. My career has give
 }
 \end{justify}
 }
-
-\vspace{1em}
-\begin{tikzpicture}[overlay,remember picture]
-\draw[gray, line width=0.8pt, rounded corners=4pt]
-(-10cm,0.3cm) -- (-10cm,0.5cm) -- (10cm,0.5cm) -- (10cm,0.8cm);
-\end{tikzpicture}
-
 %Section: Education--------------------------------------
-\vspace{-2em}
 \section{\SectionSize{\textbf{Education:}}}
 \vspace{-2em}
 \begin{tabular}{rl}
@@ -140,37 +179,24 @@ Software Engineer with hands-on Machine operation experience. My career has give
 \textsc{	Gujarat Technological University	}									&	\\
 \end{tabular}
 
-\vspace{1em}
-\begin{tikzpicture}[overlay,remember picture]
-\draw[gray, line width=0.8pt, rounded corners=4pt]
-(-10cm,1cm) -- (-10cm,0.5cm) -- (10cm,0.5cm) -- (10cm,-0.5cm);
-\end{tikzpicture}
-
 %Section: Skills--------------------------------------
-\vspace{-2em}
 \section{\SectionSize{\textbf{Skills:}}}
 \vspace{-2em}
-\begin{tabular}{rl}	\small{}
-\small{}	   {		Process Control :		}	&	{	\partcirc{90}{-210}		Control logic implementation, execution and testing					}		\\
-\small{}	   {								}	&	{	\partcirc{90}{-210}		Process improvement and enhancement									}		\\
-\small{} 	   {		Software :				}	& 	{ 	\partcirc{90}{-90} 		Desktop - Python (AI driven workflows), Web - HTML, CSS, JS			} 		\\
-\small{} 											& 	{ 	\partcirc{90}{-210} 	Git(SourceTree, Bash) 												} 		\\
-\small{}	   {		Automation :			}	&	{	\partcirc{90}{-240}		PC based Machine Automation systems (C,CPP,CS,Java)					}		\\
-\small{}	   {								}	&	{	\partcirc{90}{-240}		Real Time \& Distributed Systems (VxWorks)							}		\\
-\small{}	   {								}	&	{	\partcirc{90}{-135}		Vision Systems (Keyence, Cognex, OpenCV)							}		\\
-\small{}	   										&	{	\partcirc{90}{-90}		PLC Based Systems (Ladder, FBD), HMI, SCADA							}		\\
+
+\hspace{6em}\begin{tabular}{rl}	\small{}
+\small{}	   {		Process Control :		}	&	{	\pacman{82}		Control logic implementation, execution and testing							}		\\
+\small{}	   {								}	&	{	\pacman{78}		Process improvement and enhancement											}		\\
+\small{} 	   {		Software :				}	& 	{ 	\pacman{70} 	Desktop - Java (Primary), C\#, Python (AI-driven workflows), Web - HTML, CSS, JS	} 		\\
+\small{} 											& 	{ 	\pacman{80} 	Maintain large-scale \& legacy software systems 										} 		\\
+\small{} 											& 	{ 	\pacman{85} 	Git(SourceTree, Bash) 														} 		\\
+\small{}	   {		Automation :			}	&	{	\pacman{80}		PC based Machine Automation systems (C,C++,C\#,Java)						}		\\
+\small{}	   {								}	&	{	\pacman{78}		Real Time \& Distributed Systems (VxWorks)									}		\\
+\small{}	   {								}	&	{	\pacman{72}		Vision Systems (Keyence, Cognex, OpenCV)									}		\\
+\small{}	   										&	{	\pacman{50}		PLC Based Industrial Automation systems (Ladder, FBD), HMI, SCADA									}		\\
 \end{tabular}
 
-\vspace{0.2em}
-\begin{tikzpicture}[overlay,remember picture]
-\draw[gray, line width=0.8pt, rounded corners=4pt]
-(-9.75cm,-3cm) -- (-9.75cm,0cm) -- (-10cm,0cm) -- (-10cm,0.7cm) -- (-4cm,0.7cm) -- (-4cm,0.2cm) -- (10cm,0.2cm) -- (10cm,0.4cm);
-\draw[gray, line width=0.8pt, rounded corners=4pt]
-(-9.75cm,-6.5cm) -- (-9.75cm,-17cm);
-\end{tikzpicture}
-
 %Section: Professional Experience--------------------------------------
-\vspace{-2.8em}
+\vspace{-1.8em}
 \section{\SectionSize\textbf{Professional Experience:}}
 
 \noindent
@@ -306,14 +332,6 @@ $\circ$	&	{\fontspec{Inter}	Designed and validated electrical control systems - 
 }
 
 \SpaceBetweenJobs
-
-\vspace{1em}
-\begin{tikzpicture}[overlay,remember picture]
-\draw[gray, line width=0.8pt, rounded corners=4pt]
-(-9.75cm,2cm) -- (-9.75cm,0.5cm) -- (10cm,0.5cm) -- (10cm,0cm);
-\end{tikzpicture}
-
-\vspace{-2.5em}
-
+\vspace{0.1em}
 \small 	{	\hfill {This document is prepared using \LaTeX. Click \href{https://raw.githubusercontent.com/sap586/Resume/refs/heads/main/tex/sap586.tex}{here} to download the source code.}
 \end{document}
